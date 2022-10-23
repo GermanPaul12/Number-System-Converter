@@ -1,4 +1,2 @@
 random_input_type,random_output_type,random_input_num,user_input,result
-decimal,hex,491,1EB,1eb
-decimal,hex,491,1eb,1eb
-hex,octal,32b,1453,06213
+
