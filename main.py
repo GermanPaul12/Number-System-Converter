@@ -223,7 +223,7 @@ def check_if_right():
   global random_output_type
   global random_input_num
   if str(chosen_num) == exercise_entry.get():
-    with open('/Users/german/Documents/Coding/Python projects/DHBW/Zahlensysteme/log.csv', 'a+') as f:
+    with open('/Users/german/Documents/Coding/DHBW/Number-System-Converter/log.csv', 'a+') as f:
       f.write(f"{random_input_type},{random_output_type},{random_input_num},{exercise_entry.get()},{chosen_num}\n")
     exercise_entry.configure(fg_color='green')
     exercise_entry.delete(0, 'end')

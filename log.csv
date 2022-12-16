@@ -1,1 +1,3 @@
 random_input_type,random_output_type,random_input_num,user_input,result
+binary,hex,1001110010,272,272
+octal,hex,143,63,63
